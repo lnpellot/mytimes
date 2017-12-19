@@ -1,0 +1,59 @@
+nav {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+  /* Content Container */
+.content {
+  display: flex;
+  border: 2px solid black;
+}
+img {
+  margin-right: 12px;
+  margin-left: 30px;
+}
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding-top: 15px;
+}
+.logo-container {
+  display: flex;
+}
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+}
+.headline {
+  border: 1px solid black;
+}
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  border: 1px solid black;
+}
+.text {
+  /*border: 1px solid black;*/
+}
+.newsbites {
+  border: 1px solid black;
+}
