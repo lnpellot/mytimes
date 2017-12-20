@@ -8,7 +8,11 @@ nav {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
-
+a {
+  font-family: Verdana;
+  font-size: 14px;
+  color: black;
+}
   /* Content Container */
 .content {
   display: flex;
@@ -28,19 +32,95 @@ h1 {
 .logo-container {
   display: flex;
 }
-.column.large {
+.column {
   display: flex;
+  flex-direction: column;
+}
+.column.large {
   width: 630px;
 }
-
 .column.medium {
-  display: flex;
   width: 300px;
 }
-
 .column.small {
-  display: flex;
   width: 240px;
+}
+.lead-story .image-content {
+  background-image: url("c:/projects/mytimes/resources/images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  height: 300px;
+}
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+.fall-cancelled.image-content {
+  background-image: url("c:/projects/mytimes/resources/images/img-story-2.png");
+  background-repeat: no-repeat;
+  width: 630px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 40px;
+  height: 300px;
+  align-items: stretch;
+}
+.fall-cancelled.image-content span {
+  margin-left: 20px;
+}
+.pop-culture.image-content {
+  background-image: url("c:/projects/mytimes/resources/images/img-story-3.png");
+  background-repeat: no-repeat;
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  height: 300px;
+}
+.pop-culture.image-content span {
+  margin-left: 20px;
+}
+.cat-ceo.image-content {
+  background-image: url("c:/projects/mytimes/resources/images/img-story-1.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px, 10px, 10px;
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  height: 300px;
+}
+/*.cat-ceo.image-content span {
+  margin-left: 20px;
+}*/
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.lead-story p {
+  font-family: Georgia;
+  /*font-size: 40px;*/
+  color: black;
+}
+.lead-story span{
+  align-items: flex-start;
+}
+span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+h2 {
+  display: flex;
+}
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+
 }
 .headline {
   border: 1px solid black;
@@ -54,6 +134,18 @@ h1 {
 .text {
   /*border: 1px solid black;*/
 }
-.newsbites {
-  border: 1px solid black;
+.news-bites {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+ul {
+  width: 240px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+ul .bite {
+  border-bottom: 1px solid black;
+  margin-bottom: auto;
 }
