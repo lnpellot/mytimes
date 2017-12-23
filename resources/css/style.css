@@ -38,6 +38,7 @@ h1 {
 }
 .column.large {
   width: 630px;
+  flex-flow: column wrap;
 }
 .column.medium {
   width: 300px;
@@ -157,15 +158,13 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  justify-content: space-between;
-  align-items: center;
   height: 200px;
-  flex-wrap: wrap;
   text-align: center;
 }
 .copyright {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 h4 {
   display: flex;
